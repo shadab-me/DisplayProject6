@@ -141,6 +141,7 @@ h1 {
 
 h2 {
     font-size: 36px;
+    font-weight: 300;
 }
 
 h3 {
@@ -290,16 +291,21 @@ button {
 
 .col-1 {
     display: inline-block;
-    width: 50%;
+    width: 35%;
     text-align: center;
-}
+ }
 
 .col-2 {
     display: inline-block;
-    width: 48%;
+    width: 64%;
     vertical-align: top;
 
 
+}
+
+ 
+.profile2{
+    margin-top: 120px;
 }
 
 .col-1 img {
@@ -310,9 +316,8 @@ button {
 }
 
 .content {
-     
     margin-top: 50px;
-    padding: 16px;
+    padding: 5px;
     line-height: 2;
     padding-left: 66px;
 }
@@ -323,6 +328,7 @@ button {
 .content h3 {
     font-weight: bold;
 }
+  
 
 .col-1 h3 {
     padding-top: 30px;
@@ -368,8 +374,7 @@ button {
 .news {
     text-align: center;
     padding: 180px;
-    margin-top: 120px;
-}
+ }
  
  
 footer::before{
