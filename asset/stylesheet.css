@@ -128,3 +128,11 @@ button{
     font-size: 18px;
     margin: 25px;
  }
+ .blue{
+    border-top: 2px solid blue;
+
+ }
+ .special{
+     text-align: center;
+     padding: 120px 0px;
+ }
