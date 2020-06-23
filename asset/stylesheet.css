@@ -96,6 +96,16 @@ header {
 .right{
 float: right;
 }
+.cf::before,
+.cf::after {
+    content: '';
+    display: table;
+}
+
+.cf::after {
+    clear: both;
+}
+
 
 .nav li{
 display: inline-block;
@@ -136,3 +146,30 @@ button{
      text-align: center;
      padding: 120px 0px;
  }
+  .col-1{
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+  }
+  .col-2{
+      display: inline-block;
+      width: 48%;
+       vertical-align: top;
+
+  }
+  .col-1 img{
+      width: 100%;
+      border-radius: 100%;
+      box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
+   }
+   
+  .content{
+      margin-top: 120px;
+      padding: 66px ;
+  }
+  .content hr{
+    margin: 20px 0px;
+  }
+  .col-1 h3{
+      padding-top: 30px;
+  }
