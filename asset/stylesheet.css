@@ -46,6 +46,28 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h1{
+    font-size: 48px;
+
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+body{
+    font-family: 'Comic Neue', cursive;
+
+}
 *, 
 *::before,
 *::after{
@@ -53,6 +75,39 @@ table {
 }
 
 .hero{
-    background-image: url('./img/hero.jpg');
-    
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url('./img/hero.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    height: 640px;   
+    color: white;
+    font-weight: 300;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    padding: 20px;
+}
+.left{
+    float: left;
+}
+.right{
+float: right;
+}
+
+.nav li{
+display: inline-block;
+padding: 0 25px;
+text-align: center;
+}
+.hero-heading{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    text-align: center;
+}
+.hero-heading h1{
+    padding: 25px;
 }
