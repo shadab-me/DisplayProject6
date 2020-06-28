@@ -352,27 +352,34 @@ button {
 .portfolio {
       background-color: #4797ec;
       margin-top: 66px;
-       width: 100%;
-      
+      width: 100%;
+      color: white;
+       
 }
 
-
-.portfolio h3 {
-    padding: 66px;
+.fix{
+padding: 0 !important;
+}
+.col-1-2{
+    width: 50%;
+     margin: 0 auto;
+    align-items: center;
+}
+.col-1-1{
+    width: 20%;
+}
+.col-1-2 img{
+    width:100%;
+    border-radius: 100%;
+    box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.25);
+ }
+.main{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: end;
 }
 
-.portfolio hr {
-    margin-top: 40px;
-}
-
-
-
-.portfolio header {
-    text-align: center;
-    color: white;
-    padding: 120px 0;
-    margin-top: 180px;
-}
 .news {
     text-align: center;
     padding: 180px;
